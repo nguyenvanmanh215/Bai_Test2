@@ -1,0 +1,266 @@
+.error
+{
+color:red;
+font-family:verdana, Helvetica;
+}
+.header {
+  width: 100%;
+  height: 70px;
+}
+.img {
+  width: 160px;
+  height: 70px;
+}
+.test{
+  height: 50px;
+}
+.hidden {
+  display: none;
+}
+.login-background {
+  
+  height: 860px;
+  background: rgb(246, 136, 228);
+  background: linear-gradient(
+    135deg,
+    rgb(183, 201, 239) 0%,
+    rgb(247, 242, 176) 100%
+  );
+}
+
+.login-container {
+  width: 500px;
+  height: 600px;
+  margin:auto;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 11px;
+  background-color: rgb(251, 249, 249);
+ 
+}
+.login-content {
+  padding: 10px;
+  margin-top: 20px;
+  
+}
+.text-login {
+  margin-top:20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: top 13px;
+  font-family: inherit;
+  line-height: inherit;
+}
+.btn-login{
+ width: 93%;
+ margin-left: 15px;
+ margin-right: 15px;
+ margin-bottom: 15px;
+ height: 32px;
+ border-radius: 15px;
+ outline: none;
+ border: none;
+ background: rgb(231, 232, 225);
+ background: linear-gradient(
+   135deg,
+   rgb(209, 236, 248) 0%,
+   rgb(239, 212, 235) 100%
+ );
+ font-size: 17px;
+ color: rgb(14, 13, 13);
+ font-family:rial, Helvetica, sans-serif ;
+}
+.form-recapcha{
+height:80px;
+width: 340px;
+background-color: rgba(241, 240, 239, 0.747);
+margin-left: 18px;
+}
+.imgrcc{
+  margin-top:10px;
+  height:42px;
+  width: 42px;
+  margin-left: 40px;
+}
+.textrcc{
+  font-size:11px;
+  color:black;
+  margin-left: 210px;
+  cursor: pointer;
+}
+.fap{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.forgotpw{
+  color: rgb(38, 164, 232);
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.loginn{
+  margin-top: 20px;
+  text-align: center;
+}
+.orlogin{
+  margin-top: 20px;
+}
+.imgorlogin{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+.imglg{
+margin-top: 16px;
+margin-left: 165px;
+}
+
+.rgt{
+color:rgb(10, 81, 235);
+cursor: pointer;
+
+}
+.register{
+  text-align: center;
+  margin-top: 80px;
+  height:200px;
+  cursor: pointer;
+}
+
+.footer {
+  background: rgb(16, 18, 1);
+  background: linear-gradient(
+   135deg,
+   rgb(131, 137, 139) 0%,
+   rgba(202, 180, 202, 0.466) 100%
+ );
+  display:flex;
+  height:400px;
+  font-family: “Comic Sans MS”, cursive, sans-serif;
+  font-size:17px;
+  
+}
+.content{
+  margin-top:20px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  line-height: 35px;
+}
+.hap{
+  text-align: center;
+ 
+}
+i{
+  cursor: pointer;
+}
+#toggle{
+  position: absolute;
+  top: 10px;
+  right: 23px;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  font-size: 1.2em;
+  cursor: pointer;
+  user-select: none;
+  color:#333;
+  font-family: fontAwesome;
+}
+#toggle::before{
+  content:'\f070';
+ 
+}
+#toggle.hide::before{
+  content:'\f06e';
+ 
+}
+.texterr{
+  font-size:12px;
+  color: red;
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
+  /* visibility: hidden; */
+  line-height: 1rem;
+  visibility: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button {
+  text-align: center;
+  width: 93%;
+}
+
+.btn-hover {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 40px;
+  text-align:center;
+  border:none;
+  background-size: 300% 100%;
+  border-radius: 3px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #0b74ed, #06f380, #55fb6e, #0606fa);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.button_scroll2top
+ {
+  display:none;
+  width:60px;
+  height:60px;
+  padding-top:20px;
+  padding-left:10px;
+  position:fixed;
+  z-index:999;
+  right:-10px;
+  top:80%;
+  background:rgb(8, 2, 2);
+  border-radius:9px;
+  cursor:pointer;
+  opacity:0.6;
+  color:rgb(252, 252, 252);
+  font-size:2.0em;
+ 
+ }
+ .button_scroll2top:hover
+ {
+  opacity:1.0;
+ } 
+ .p1{
+  visibility: hidden;
+ }
+ .p2{
+  visibility: hidden;
+ }
+ 

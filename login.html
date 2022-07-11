@@ -1,0 +1,144 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Coin - Buy & sell Crypto</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+       <div class="header">
+          <img class="img" src="images/logo.b1a090f.png" />
+      </div>
+      <!-- ---header end-- -->
+      <!-- main -->
+      <div class="login-background">
+        <div class="test"></div>
+        <div class="login-container">
+          <div class="login-content">
+           <!-- form login -->
+            <form name="formlogin" id="formlogin">
+            <div class="col-12 text-login">LOGIN IN TO YOUR ACCOUNT</div>
+            <div class="col-12 form-group login-input">
+              <!-- input email -->
+              <label for="email">Email:</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Enter your email"
+                onblur="myFunctionCheckEmail()"
+              />
+              <span class="texterr" id="err1">This field is required</span> <!-- error message -->
+            </div>
+            <div class="col-12 form-group login-input">
+              <!-- input password -->
+              <label for="password">Password:</label>
+              <div class="custom-input-password">
+                <div>
+                <input
+                  name="password"
+                  id="password"
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter your password"
+                  onblur="myFunctionCheckPass()"
+                />
+                <span class="texterr" id="err2">This field is required</span>
+                <div id="toggle" onclick="showPassword()">
+                </div>
+              </div>
+            </div>
+            </div>
+            <!-- form recapcha -->
+            <div class="form-recapcha">
+              <form class="formrecapcha">
+                <input type="checkbox" id="vehicle1" name="recapcha" value="">
+                <label for="vehicle1"> Tôi không phải người máy</label>
+                <img class="imgrcc" src="images/recapcha.png"><br>
+                <a class="textrcc">bảo mật - điều khoản</a>
+              </form>
+            </div>
+          
+            <div class="button">
+              <button type="submit" id="btn" value="Show Alert" class="btn-hover color-1">Login</button>
+              <span class="forgot-password forgotpw"><u>Forgot your password?</u></span>
+            </div>
+            <div class="col-12-lg text-center orlogin">
+              <span class="text-other-login ">Or login with:</span>
+            </div>
+            <div class="col-12-lg imglg">
+              <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser">
+              <img class="imgorlogin" src="images/gg.png">
+            </a>
+            <a href="https://www.facebook.com/">
+              <img class="imgorlogin" src="images/fb.webp">
+            </a>
+            </form>
+          <!-- end form -->
+            </div>
+          </div>
+           <div class="col-12 register">
+               <div >
+                <span>Don't have an account?<p class="rgt">Register</p>
+                <p>Privacy Notice   &emsp; &emsp; Cookies Notice  &emsp;&emsp;  Cookies Settings</p>
+              </span>
+            </div>
+           </div>
+          </div>
+        </div>
+      <div href="" class="button_scroll2top" onclick="page_scroll2top()"><i class="fa fa-chevron-up"></i></div>
+      <!-- footer -->
+      <div class="footer">
+          <div class=" content">
+            <span><b>Products</b></span><br>
+            <i src="">Blockchain Explorer</i><br>
+            <i src="">Crypto API</i><br>
+            <i src="">Crypto Indices</i><br>
+            <i src="">Interest</i><br>
+            <i src="">Jobs Board</i><br>
+            <i src="">Sitemap</i><br> 
+          </div>
+          <div class=" content">
+            <span><b>Company</b></span><br>
+            <i src="">About us</i><br>
+            <i src="">Terms of use</i><br>
+            <i src="">Privacy Policy</i><br>
+            <i src="">Disclaimer</i><br>
+            <i src="">Methodology</i><br>
+            <i src="">CareersWe’re hiring!</i>
+          </div>
+          <div class=" content">
+            <span><b>Support</b></span><br>
+            <i src="">Request Form</i><br>
+            <i src="">Contact Support</i><br>
+            <i src="">FAQ</i><br>
+            <i src="">Glossary</i>
+          </div>
+          <div class=" content">
+            <span><b>Socials</b></span><br>
+            <i src="">Facebook</i><br>
+            <i src="">Twitter</i><br>
+            <i src="">Telegram</i><br>
+            <i src="">Instagram</i><br>
+            <i src="">Interactive Chat</i>
+          </div>
+          <hr />
+        </div> 
+        <div class="hap"><p >Copyright © 2022 Shopcoin.com</p></div>
+     </div>
+     <!-- end footer -->
+     <script  src="js/login.js"></script>
+  </body>
+</html>
